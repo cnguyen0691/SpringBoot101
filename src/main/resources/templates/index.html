@@ -7,6 +7,24 @@
 </head>
 <body>
 <h1>Portfolio</h1>
-<img src="https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?cs=srgb&dl=blue-clouds-day-53594.jpg&fm=jpg">
+<form action="processForm" method="get">
+    First name: <br>
+    <input type="text" name="firstname">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname">
+    <br>
+    Email: <br>
+    <input id="Email" name="email" type="text" value=""/>
+    <br>
+    <br>
+    <textarea name=”posttext” id=”posttext” rows=”5” maxlength=”141”>
+
+    </textarea><br>
+    <input type="submit" value="Submit" id="submit"/>
+    <input type="reset" value="Clear"/>
+</form>
+
+
 </body>
 </html>
